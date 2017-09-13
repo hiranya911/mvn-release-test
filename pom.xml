@@ -33,6 +33,13 @@
         <url>https://firebase.google.com/</url>
     </organization>
 
+    <distributionManagement>
+        <repository>
+            <id>absolute directory</id>
+            <url>file:///${user.home}/repo</url>
+        </repository>
+    </distributionManagement>
+
     <developers>
         <developer>
             <id>firebase</id>
